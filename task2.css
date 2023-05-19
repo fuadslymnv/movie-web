@@ -1,24 +1,4 @@
-/*-----------------------------------*\
- * #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
- * #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
-
-  /**
-   * colors
-   */
 
   --rich-black-fogra-29: hsl(225, 25%, 9%);
   --rich-black-fogra-39: hsl(170, 21%, 5%);
@@ -35,9 +15,7 @@
   --black: hsl(0, 0%, 0%);
   --jet: hsl(0, 0%, 20%);
 
-  /**
-   * typography
-   */
+
 
   --ff-poppins: 'Poppins', sans-serif;
 
@@ -57,28 +35,17 @@
   --fw-500: 500;
   --fw-700: 700;
 
-  /**
-   * transition
-   */
+ 
 
   --transition-1: 0.15s ease;
   --transition-2: 0.25s ease-in;
 
-  /**
-   * spacing
-   */
 
   --section-padding: 100px;
 
 }
 
 
-
-
-
-/*-----------------------------------*\
- * #RESET
-\*-----------------------------------*/
 
 *, *::before, *::after {
   margin: 0;
@@ -122,17 +89,9 @@ body.active { overflow: hidden; }
 
 
 
-
-
-/*-----------------------------------*\
- * #REUSED STYLE
-\*-----------------------------------*/
-
 .container { padding-inline: 15px; }
 
-/**
- * TITLES & SUBTITLES
- */
+
 
 .h1,
 .h2,
@@ -159,9 +118,7 @@ body.active { overflow: hidden; }
 
 .section-title { text-align: center; }
 
-/**
- * BADGE
- */
+
 
 .badge {
   color: var(--white);
@@ -178,9 +135,7 @@ body.active { overflow: hidden; }
 
 .badge-outline { border-color: var(--white); }
 
-/**
- * MOVIE META
- */
+
 
 .meta-wrapper {
   display: flex;
@@ -225,9 +180,6 @@ body.active { overflow: hidden; }
   color: var(--citrine);
 }
 
-/**
- * BUTTONS
- */
 
 .btn {
   color: var(--white);
@@ -253,9 +205,7 @@ body.active { overflow: hidden; }
   color: var(--xiketic);
 }
 
-/**
- * MOVIE CARD
- */
+
 
 .movies-list {
   display: grid;
@@ -344,9 +294,7 @@ body.active { overflow: hidden; }
   color: var(--citrine);
 }
 
-/**
- * CUSTOM SLIDER & SCROLLBAR
- */
+
 
 .movies-list.has-scrollbar {
   display: flex;
@@ -373,12 +321,6 @@ body.active { overflow: hidden; }
 }
 
 
-
-
-
-/*-----------------------------------*\
- * #HEADER
-\*-----------------------------------*/
 
 .header {
   position: fixed;
@@ -491,14 +433,8 @@ body.active { overflow: hidden; }
 
 
 
-
-
-/*-----------------------------------*\
- * #HERO
-\*-----------------------------------*/
-
 .hero {
-  background: url("../filmImages/hero-bg.jpg") no-repeat;
+  background: url("../hero-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 750px;
@@ -526,13 +462,8 @@ body.active { overflow: hidden; }
 
 
 
-
-/*-----------------------------------*\
- * #UPCOMING
-\*-----------------------------------*/
-
 .upcoming {
-  background: url("../filmImages/upcoming-bg.png") no-repeat;
+  background: url("../upcoming-bg.png") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -568,12 +499,6 @@ body.active { overflow: hidden; }
 }
 
 
-
-
-
-/*-----------------------------------*\
- * #SERVICE
-\*-----------------------------------*/
 
 .service {
   background: url("../images/service-bg.jpg") no-repeat;
@@ -675,11 +600,6 @@ body.active { overflow: hidden; }
 
 
 
-
-/*-----------------------------------*\
- * #TOP RATED
-\*-----------------------------------*/
-
 .top-rated {
   background: url("../images/top-rated-bg.jpg") no-repeat;
   background-size: cover;
@@ -727,13 +647,6 @@ body.active { overflow: hidden; }
 .top-rated .filter-btn:focus::after { right: 0; }
 
 
-
-
-
-/*-----------------------------------*\
- * #TV SEREIS
-\*-----------------------------------*/
-
 .tv-series {
   background: url("../images/tv-series-bg.jpg") no-repeat;
   background-size: cover;
@@ -745,7 +658,7 @@ body.active { overflow: hidden; }
 
 
 .cta {
-  background: url("../filmImages/cta-bg.jpg") no-repeat;
+  background: url("../cta-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
