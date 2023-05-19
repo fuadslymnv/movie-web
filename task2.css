@@ -434,7 +434,7 @@ body.active { overflow: hidden; }
 
 
 .hero {
-  background: url("../hero-bg.jpg") no-repeat;
+  background: url("./hero-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 750px;
@@ -463,7 +463,7 @@ body.active { overflow: hidden; }
 
 
 .upcoming {
-  background: url("../upcoming-bg.png") no-repeat;
+  background: url("./upcoming-bg.png") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -501,7 +501,7 @@ body.active { overflow: hidden; }
 
 
 .service {
-  background: url("../images/service-bg.jpg") no-repeat;
+  background: url("./images/service-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -648,7 +648,7 @@ body.active { overflow: hidden; }
 
 
 .tv-series {
-  background: url("../images/tv-series-bg.jpg") no-repeat;
+  background: url("./images/tv-series-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -658,7 +658,7 @@ body.active { overflow: hidden; }
 
 
 .cta {
-  background: url("../cta-bg.jpg") no-repeat;
+  background: url("./cta-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
